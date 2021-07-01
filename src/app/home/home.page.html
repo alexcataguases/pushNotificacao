@@ -1,20 +1,19 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Notificações
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-text>Valor da chave</ion-text>
+    <ion-textarea rows=4 value={{chave}}></ion-textarea>
+    <br><br>
+    <ion-text>Push Notification</ion-text>
+    <ion-input [(ngModel)]="formulario.titulo" placeholder="Título..."></ion-input>
+    <ion-input [(ngModel)]="formulario.texto" placeholder="Mensagem..."></ion-input>
+    <ion-button (click)="enviarMensagem()">Enviar</ion-button>
   </div>
 </ion-content>

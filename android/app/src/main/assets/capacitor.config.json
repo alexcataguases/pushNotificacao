@@ -1,0 +1,6 @@
+{
+	"appId": "com.alexcataguases.push",
+	"appName": "notificacao",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

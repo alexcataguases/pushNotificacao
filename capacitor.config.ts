@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'com.alexcataguases.push',//era io.ionic.starter
   appName: 'notificacao',
   webDir: 'www',
   bundledWebRuntime: false

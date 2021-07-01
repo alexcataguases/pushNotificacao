@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "590679942855",
+    "project_id": "primeiropush-dc392",
+    "storage_bucket": "primeiropush-dc392.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590679942855:android:720dc5105efc178e30c0e2",
+        "android_client_info": {
+          "package_name": "com.alexcataguases.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590679942855-4k3dg58hd1ta3q40qhn3dejvmb5u76jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8xUqL6MMgml-hL2LH_5glnb1BNJwRS1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590679942855-4k3dg58hd1ta3q40qhn3dejvmb5u76jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

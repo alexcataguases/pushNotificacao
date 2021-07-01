@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">notificacao</string>
+    <string name="title_activity_main">notificacao</string>
+    <string name="package_name">com.alexcataguases.push</string>
+    <string name="custom_url_scheme">com.alexcataguases.push</string>
+</resources>
